@@ -33,7 +33,7 @@ void setup()
   sendData("AT+CWMOD=1\r\n", 2000, DEBUG);                              // DEFINE PARA STA
   delay(1000);
   sendData("AT+RST\r\n", 2000, DEBUG);                                  // rst
-  sendData("AT+CWJAP=\"CHSP\",\"32383950\"\r\n", 2000, DEBUG);          // Conecta a rede wireless
+  sendData("AT+CWJAP=\"SUAWIFI\",\"SENHA\"\r\n", 2000, DEBUG);          // Conecta a rede wireless
   delay(3000);
   sendData("AT+CWMODE=1\r\n", 1000, DEBUG);                             // Mostra o endereco IP
   sendData("AT+CIFSR\r\n", 1000, DEBUG);                                // Configura para multiplas conexoes
