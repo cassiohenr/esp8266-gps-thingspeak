@@ -1,5 +1,3 @@
-
-
 //DEFINIÇÕES PARA GPS
 #include <SoftwareSerial.h>
 #include <TinyGPS.h>
